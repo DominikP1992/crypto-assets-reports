@@ -1,7 +1,6 @@
 import AssetReport from '@/components/molecules/AssetReport/AssetReport';
 import AssetChart from '@/components/molecules/Chart/Chart';
 import MarketStatItem from '@/components/molecules/MarketStatItem/MarketStatItem';
-import { useAuth } from '@/providers/AuthContext/AuthContext';
 import fetchAssetOverview, {
   AssetOverviewResponse,
 } from '@/services/fetchAssetOverview';
@@ -21,10 +20,10 @@ import {
   Grid,
   Stack,
   Typography,
+  Link,
 } from '@mui/material';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
 
 type ProductProps = {
   assetData: {
@@ -88,7 +87,11 @@ const ProductPage = ({
             target="_blank"
             rel="noopener"
           >
-            <Typography variant="body2" color="textSecondary">
+            <Typography
+              variant="body2"
+              color="textSecondary"
+              component={'span'}
+            >
               Read the Whitepaper
             </Typography>
           </Link>

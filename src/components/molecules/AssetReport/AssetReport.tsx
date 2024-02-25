@@ -54,7 +54,7 @@ const AssetReport = ({ assetName }: { assetName: string }) => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            backdropFilter: 'blur(2px)',
+            backdropFilter: 'blur(4px)',
             zIndex: 2,
           }}
         >
@@ -76,7 +76,7 @@ const AssetReport = ({ assetName }: { assetName: string }) => {
             justifyContent: 'center',
             alignItems: 'center',
             zIndex: 2,
-            backdropFilter: 'blur(2px)',
+            backdropFilter: 'blur(4px)',
           }}
         >
           <Typography

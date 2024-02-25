@@ -25,9 +25,9 @@ const ReportsSearch = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const debouncedFetch = debounce(async (input: string) => {
-    if (input.length > 2) {
+    if (input.length > 0) {
       setIsLoading(true);
-      const results = await fetchCryptoReports(input, 500);
+      const results = await fetchCryptoReports(input, 300);
       setOptions(results);
       setIsLoading(false);
     } else {
