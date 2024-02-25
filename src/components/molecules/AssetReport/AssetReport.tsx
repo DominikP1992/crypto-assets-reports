@@ -84,8 +84,10 @@ const AssetReport = ({ assetName }: { assetName: string }) => {
             component={'p'}
             fontWeight={'bold'}
             gutterBottom
+            align="center"
           >
-            Connect wallet in order to see full report
+            Connect wallet in order <br />
+            to see full report
           </Typography>
           <ConnectWalletButton />
         </Box>
