@@ -1,0 +1,24 @@
+<svg width="500" height="501" viewBox="0 0 500 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M354.8 3.02734V94.4273V124.127V266.427C352.7 321.627 305.9 366.227 250.7 366.227C195.5 366.227 148.7 321.627 146.6 266.427V124.127V94.4273V3.02734H21.2998V268.627C21.2998 393.927 123.3 498.027 250.7 498.027C376 498.027 480.1 396.027 480.1 268.627V3.02734H354.8Z" fill="url(#paint0_linear_1_10585)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M354.8 94.4273V124.127V266.427C352.7 321.627 305.9 366.227 250.7 366.227C204 366.227 165.7 336.527 150.9 294.027C165.7 381.227 221 453.427 297.5 489.527C401.6 468.327 480.2 376.927 480.2 266.427V3.02734H356.9V94.4273H354.8Z" fill="url(#paint1_linear_1_10585)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M354.8 94.4273V124.127V266.427C352.7 321.627 305.9 366.227 250.7 366.227C204 366.227 165.7 336.527 150.9 294.027C150.9 296.127 150.9 298.227 150.9 298.227C189.1 374.727 269.9 427.827 363.3 427.827C380.3 427.827 399.4 425.727 416.4 421.427C454.6 381.027 480.1 325.827 480.1 264.227V3.02734H356.9V94.4273H354.8Z" fill="url(#paint2_linear_1_10585)"/>
+<defs>
+<linearGradient id="paint0_linear_1_10585" x1="17.5942" y1="96.1451" x2="332.149" y2="247.067" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FEBFF"/>
+<stop offset="0.1844" stop-color="#5DCFE2"/>
+<stop offset="0.4326" stop-color="#35AEC0"/>
+<stop offset="0.6598" stop-color="#1896A8"/>
+<stop offset="0.8564" stop-color="#068799"/>
+<stop offset="1" stop-color="#008294"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_10585" x1="150.116" y1="246.278" x2="478.082" y2="246.278" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FEBFF"/>
+<stop offset="1" stop-color="#008FAA"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1_10585" x1="255.935" y1="46.7684" x2="540.995" y2="545.595" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FEBFF"/>
+<stop offset="0.1633" stop-color="#6ADCF1"/>
+<stop offset="0.6493" stop-color="#008FAA"/>
+</linearGradient>
+</defs>
+</svg>

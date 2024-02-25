@@ -1,0 +1,24 @@
+<svg width="500" height="501" viewBox="0 0 500 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M423.7 350.9C414.9 343.1 403.6 338.6 391.8 338.6C378.6 338.6 366.3 344 357 353.8C322.7 391.1 291.8 405.3 247.6 405.3C201.5 405.3 169.6 390.6 134.8 353.3C126 344 113.2 338.1 100.5 338.1C88.7003 338.1 77.0003 342.5 68.1003 350.9C49.5003 369 48.5003 399 66.1003 417.6C119.1 474 175 499.5 247.5 499.5C318.6 499.5 373.5 474 426 417.6C444.3 398.5 442.9 368.6 423.7 350.9Z" fill="url(#paint0_linear_1_7814)"/>
+<path d="M422.7 257.3C452.2 257.3 476.2 233.4 476.2 203.8C476.2 174.2 452.3 150.3 422.7 150.3C393.2 150.3 369.2 174.2 369.2 203.8C369.2 233.4 393.2 257.3 422.7 257.3Z" fill="url(#paint1_linear_1_7814)"/>
+<path d="M49.6004 248.9C24.6004 233.7 16.3004 200.8 31.5004 175.8L120.8 27.2C136 2.19998 168.9 -6.10002 193.9 9.09998C218.9 24.3 227.2 57.2 212 82.2L122.7 230.3C107.4 255.8 74.6004 263.6 49.6004 248.9Z" fill="url(#paint2_linear_1_7814)"/>
+<path d="M221.7 248.9C196.7 233.7 188.4 200.8 203.6 175.8L292.9 27.2C308.1 2.19998 341 -6.10002 366 9.09998C391 24.3 399.3 57.2 384.1 82.2L295.3 230.3C280 255.8 247.2 263.6 221.7 248.9Z" fill="url(#paint3_linear_1_7814)"/>
+<defs>
+<linearGradient id="paint0_linear_1_7814" x1="282.449" y1="422.487" x2="13.5478" y2="148.262" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5ACEFF"/>
+<stop offset="1" stop-color="#00EEEA"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_7814" x1="460.17" y1="241.963" x2="214.067" y2="-9.01301" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5ACEFF"/>
+<stop offset="1" stop-color="#00EEEA"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1_7814" x1="344.125" y1="355.895" x2="98.0219" y2="104.92" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5ACEFF"/>
+<stop offset="1" stop-color="#00EEEA"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1_7814" x1="431.879" y1="269.849" x2="185.777" y2="18.8731" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5ACEFF"/>
+<stop offset="1" stop-color="#00EEEA"/>
+</linearGradient>
+</defs>
+</svg>

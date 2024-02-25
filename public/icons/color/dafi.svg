@@ -1,0 +1,23 @@
+<svg width="500" height="501" viewBox="0 0 500 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_5093)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M379.8 0.429688C365.2 0.429688 353.3 12.3297 353.3 26.9297V308.83V148.33C353.3 148.33 334.3 135.73 309 127.23C290.1 120.93 266.4 118.23 251.9 118.23C146.9 118.23 61.2998 203.83 61.2998 308.83C61.2998 413.83 146.9 499.43 251.9 499.43C356.9 499.43 438.7 413.83 438.7 308.83V26.9297C438.7 12.3297 426.8 0.429688 412.2 0.429688H379.8ZM252.6 203.23C311.1 203.23 352.9 250.33 352.9 308.83C352.9 336.13 343.8 360.93 328.1 379.63C310.2 401.03 283.8 414.43 252.6 414.43C194.1 414.43 147 367.33 147 308.83C147.1 250.33 194.2 203.23 252.6 203.23Z" fill="url(#paint0_linear_1_5093)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M251.9 118.23C146.9 118.23 61.2998 203.83 61.2998 308.83C61.2998 413.83 146.9 499.43 251.9 499.43C356.9 499.43 438.7 413.83 438.7 308.83H353.3V148.33C350.5 146.43 349.1 145.43 344.6 142.93C317.1 127.83 285.9 118.23 251.9 118.23ZM252.6 203.23C311.1 203.23 352.9 250.33 352.9 308.83C352.9 336.13 343.8 360.93 328.1 379.63C310.2 401.03 283.8 414.43 252.6 414.43C194.1 414.43 147 367.33 147 308.83C147.1 250.33 194.2 203.23 252.6 203.23Z" fill="url(#paint1_radial_1_5093)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_5093" x1="398.97" y1="81.7666" x2="135.013" y2="485.688" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00DFFE"/>
+<stop offset="0.5253" stop-color="#00F5FF"/>
+<stop offset="1" stop-color="#23FCCF"/>
+</linearGradient>
+<radialGradient id="paint1_radial_1_5093" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(399.485 139.183) scale(375.414 375.414)">
+<stop stop-color="#060606" stop-opacity="0.4764"/>
+<stop offset="0.1101" stop-color="#030509" stop-opacity="0.2538"/>
+<stop offset="0.451" stop-color="#00040C" stop-opacity="0"/>
+<stop offset="0.6591" stop-color="#144A4C" stop-opacity="0"/>
+<stop offset="1" stop-color="#2AFDC5" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_1_5093">
+<rect width="500" height="500" fill="white" transform="translate(0 0.429688)"/>
+</clipPath>
+</defs>
+</svg>
