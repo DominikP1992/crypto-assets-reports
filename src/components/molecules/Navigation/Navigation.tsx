@@ -48,7 +48,7 @@ export default function SidebarMenu() {
       {publicRoutes.map((props) => {
         return <NavItem key={props.name} {...props} />;
       })}
-      <Divider />
+      <Divider sx={{ mt: 2, mb: 2 }} />
       {isAuth ? (
         privateRoutes.map((props) => {
           return <NavItem key={props.name} {...props} />;

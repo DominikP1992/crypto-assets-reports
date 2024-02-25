@@ -39,23 +39,23 @@ const NavItem = ({ name, url, Icon, disabled }: NavItemTypes) => {
   );
 
   return (
-    <MenuItem key={name} sx={{ py: '6px', px: '12px' }}>
-      <Link
-        href={url}
-        style={{
-          textDecoration: 'none',
-        }}
-        passHref
-        onClick={handleClick}
-      >
+    <Link
+      href={url}
+      style={{
+        textDecoration: 'none',
+      }}
+      passHref
+      onClick={handleClick}
+    >
+      <MenuItem key={name} sx={{ py: 1, px: 2 }}>
         <Box display={'flex'} gap={2} alignItems={'center'}>
           <Icon style={{ color: theme.palette.text.primary }} />
           <Typography variant="body2" color="text.primary">
             {`${name}${disabled ? '' : '*'}`}
           </Typography>
         </Box>
-      </Link>
-    </MenuItem>
+      </MenuItem>
+    </Link>
   );
 };
 
