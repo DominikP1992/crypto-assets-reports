@@ -1,4 +1,4 @@
-const mockedCrypto = [
+const mockedCryptoReports = [
   {
     name: 'Bitcoin',
     symbol: 'BTC',
@@ -500,4 +500,4 @@ const mockedCrypto = [
     id: 'fdusd-first-digital-usd-fdusd',
   },
 ];
-export default mockedCrypto;
+export default mockedCryptoReports;
