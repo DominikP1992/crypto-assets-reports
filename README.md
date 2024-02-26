@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Assets Reports
+
+Welcome to the Crypto Assets Reports project! This application is designed to provide users with insightful reports and visualizations of various cryptocurrency assets, leveraging the power of React, Next.js, and Recharts for rich, interactive data presentations.
+
+## Version
+
+0.1.0
+
+## Features
+
+- **Interactive Charts:** Utilize Recharts for dynamic and responsive cryptocurrency data visualizations.
+- **Material UI:** A sleek and modern UI built with Material-UI components for an intuitive user experience.
+- **Responsive Design:** Fully responsive design that looks great on both desktop and mobile devices.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (Preferably the latest stable version)
+- npm or Yarn
+
+### Getting started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/DominikP1992/crypto-assets-reports.git
+cd crypto-assets-reports
+```
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+3. To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open http://localhost:3000 with your browser to see the result.
 
-## Learn More
+## Building for Production
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+or
 
-## Deploy on Vercel
+```bash
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To start the production server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run start
+```
+
+or
+
+```bash
+yarn start
+```
+
+## Linting and Formatting
+
+To lint the project files:
+
+```bash
+npm run lint
+```
+
+or
+
+```bash
+yarn lint
+```
+
+To format the project files with Prettier:
+
+```bash
+npm run prettier
+```
+
+or
+
+```bash
+yarn prettier
+```
+
+## Dependencies
+
+1. Framework: Next.js
+2. UI Library: React
+3. Styling: @emotion/react and @emotion/styled
+4. UI Components: @mui/material and @mui/icons-material
+5. Data Visualization: Recharts
+6. Utilities: Lodash
