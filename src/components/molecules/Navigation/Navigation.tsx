@@ -9,7 +9,7 @@ import {
   AssignmentInd,
   Notifications,
 } from '@mui/icons-material';
-import { Box, Divider } from '@mui/material';
+import { Box, Divider, MenuItem } from '@mui/material';
 import React from 'react';
 import NavItem, { NavItemTypes } from '../NavItem/NavItem';
 import { useAuth } from '@/providers/AuthContext/AuthContext';
@@ -54,7 +54,9 @@ export default function SidebarMenu() {
           return <NavItem key={props.name} {...props} />;
         })
       ) : (
-        <ConnectWalletButton fullWidth />
+        <MenuItem>
+          <ConnectWalletButton fullWidth />
+        </MenuItem>
       )}
     </Box>
   );

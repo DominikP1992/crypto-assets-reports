@@ -3,15 +3,11 @@ import { Box, CssBaseline, Divider, useTheme } from '@mui/material';
 import { sidebarWidth } from '@/styles/getTheme';
 import { ThemeProvider } from '@/providers/ThemeContext/ThemeContext';
 import { AuthProvider } from '@/providers/AuthContext/AuthContext';
-import dynamic from 'next/dynamic';
 import { NotificationProvider } from '@/providers/NotificationContext/NotificationContext';
 import Head from 'next/head';
-
-const Footer = dynamic(() => import('@/components/molecules/Footer/Footer'));
-const SidebarMenu = dynamic(
-  () => import('@/components/molecules/Navigation/Navigation'),
-);
-const AppBar = dynamic(() => import('@/components/molecules/AppBar/AppBar'));
+import Footer from '@/components/molecules/Footer/Footer';
+import SidebarMenu from '@/components/molecules/Navigation/Navigation';
+import AppBar from '@/components/molecules/AppBar/AppBar';
 
 function App({ Component, pageProps }: AppProps) {
   const theme = useTheme();
