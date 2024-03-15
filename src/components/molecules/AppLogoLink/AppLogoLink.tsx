@@ -19,8 +19,9 @@ export default function AppLogoLink() {
             color: (theme) =>
               theme.palette.mode === 'light' ? 'primary.main' : 'primary.light',
           }}
+          display={{ xs: 'none', sm: 'initial' }}
         >
-          C.A.R.
+          TokenScreen
         </Typography>
       </Box>
     </Link>

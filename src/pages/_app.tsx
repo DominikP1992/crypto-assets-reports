@@ -8,6 +8,7 @@ import Head from 'next/head';
 import Footer from '@/components/molecules/Footer/Footer';
 import SidebarMenu from '@/components/molecules/Navigation/Navigation';
 import AppBar from '@/components/molecules/AppBar/AppBar';
+import NextNProgress from 'nextjs-progressbar';
 
 function App({ Component, pageProps }: AppProps) {
   const theme = useTheme();
@@ -24,21 +25,16 @@ function App({ Component, pageProps }: AppProps) {
         pt={10}
         borderRight={`1px solid ${theme.palette.divider}`}
         height={'100%'}
-        sx={{
-          display: { xs: 'none', md: 'initial' },
-        }}
+        display={{ xs: 'none', md: 'initial' }}
       >
         <SidebarMenu />
       </Box>
-      <Box
-        sx={{
-          ml: { xs: '', md: sidebarWidth },
-        }}
-      >
+      <Box ml={{ xs: '', md: sidebarWidth }}>
         <Component {...pageProps} />
         <Footer />
       </Box>
       <Divider />
+      <NextNProgress />
     </>
   );
 }

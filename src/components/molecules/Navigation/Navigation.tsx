@@ -3,11 +3,13 @@ import {
   ImageSearch,
   Person,
   Settings,
-  Summarize,
   ManageSearch,
   School,
   AssignmentInd,
   Notifications,
+  Home,
+  Visibility,
+  Download,
 } from '@mui/icons-material';
 import { Box, Divider, MenuItem } from '@mui/material';
 import React from 'react';
@@ -17,9 +19,11 @@ import ConnectWalletButton from '../ConnectWalletButton/ConnectWalletButton';
 
 // menu buttons are disabled as routes doesn't exist
 const publicRoutes: NavItemTypes[] = [
-  { name: 'Reports', url: '/', Icon: Summarize, disabled: false },
-  { name: 'Audits', url: '/audits', Icon: ManageSearch, disabled: true },
-  { name: 'Learn center', url: '/learn-center', Icon: School, disabled: true },
+  { name: 'Dashboard', url: '/', Icon: Home, disabled: false },
+  { name: 'Screener', url: '/screener', Icon: ManageSearch, disabled: false },
+  { name: 'Learn center', url: '/learn-center', Icon: School, disabled: false },
+  { name: 'Watchlist', url: '/watchlist', Icon: Visibility, disabled: false },
+  { name: 'Downloads', url: '/downloads', Icon: Download, disabled: false },
 ];
 
 const privateRoutes: NavItemTypes[] = [

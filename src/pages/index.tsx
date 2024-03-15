@@ -10,7 +10,7 @@ import Link from 'next/link';
 import ReportsSearch from '@/components/molecules/ReportsSearch/ReportsSearch';
 import Head from 'next/head';
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Head>
