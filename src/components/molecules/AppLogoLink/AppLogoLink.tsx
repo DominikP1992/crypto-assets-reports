@@ -21,7 +21,7 @@ export default function AppLogoLink() {
           }}
           display={{ xs: 'none', sm: 'initial' }}
         >
-          TokenScreen
+          Crypto Asset Reports
         </Typography>
       </Box>
     </Link>

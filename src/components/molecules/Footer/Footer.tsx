@@ -56,7 +56,7 @@ export default function Footer() {
             <Box display={'flex'} alignItems={'center'} gap={1} pb={1}>
               <AppLogo />{' '}
               <Typography color="primary.main" fontWeight={'bold'}>
-                TokenScreen
+                Crypto Asset Reports
               </Typography>
             </Box>
             <Typography variant="body2" fontWeight={600} gutterBottom>
@@ -179,7 +179,7 @@ export default function Footer() {
           <Typography variant="body2" color="text.secondary" mt={1}>
             {'Copyright © '}
             <Link href="#" onClick={handleClick}>
-              TokenScreen&nbsp;
+              Crypto Asset Reports&nbsp;
             </Link>
             {new Date().getFullYear()}
           </Typography>

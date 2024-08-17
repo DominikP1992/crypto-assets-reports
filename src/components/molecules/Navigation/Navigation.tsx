@@ -19,11 +19,11 @@ import ConnectWalletButton from '../ConnectWalletButton/ConnectWalletButton';
 
 // menu buttons are disabled as routes doesn't exist
 const publicRoutes: NavItemTypes[] = [
-  { name: 'Dashboard', url: '/', Icon: Home, disabled: false },
-  { name: 'Screener', url: '/screener', Icon: ManageSearch, disabled: false },
-  { name: 'Learn center', url: '/learn-center', Icon: School, disabled: false },
-  { name: 'Watchlist', url: '/watchlist', Icon: Visibility, disabled: false },
-  { name: 'Downloads', url: '/downloads', Icon: Download, disabled: false },
+  { name: 'Home', url: '/', Icon: Home, disabled: false },
+  { name: 'Screener', url: '/screener', Icon: ManageSearch, disabled: true },
+  { name: 'Learn center', url: '/learn-center', Icon: School, disabled: true },
+  { name: 'Watchlist', url: '/watchlist', Icon: Visibility, disabled: true },
+  { name: 'Downloads', url: '/downloads', Icon: Download, disabled: true },
 ];
 
 const privateRoutes: NavItemTypes[] = [

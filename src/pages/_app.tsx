@@ -34,7 +34,7 @@ function App({ Component, pageProps }: AppProps) {
         <Footer />
       </Box>
       <Divider />
-      <NextNProgress />
+      <NextNProgress options={{ showSpinner: false }} />
     </>
   );
 }

@@ -489,7 +489,7 @@ export default function getTheme(mode: PaletteMode): ThemeOptions {
       MuiMenuItem: {
         styleOverrides: {
           root: ({ theme }) => ({
-            borderRadius: '99px',
+            borderRadius: '10px',
             color: gray[500],
             fontWeight: 500,
             ...(theme.palette.mode === 'dark' && {
